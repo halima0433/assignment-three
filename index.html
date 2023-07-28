@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? 
+    family=Angkor&family=Manrope:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .font-manrop{
+            font-family: 'Angkor', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Oswald', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="tailwind.config.js">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="font-manrop">
+    
+<div class="max-w-screen-xl mx-auto my-10">
+<!-- nevbar-->
+
+    <div class="navbar bg-base-100 bg-red-500 rounded-full">
+        <div class=" text-white ml-5 list-none gap-4 navbar-start ">
+       <li>Home</li>
+       <li>About Us</li>
+       <li>Shop</li>
+       <li>All Fruit</li>
+        </div>
+        <div class="navbar-center">
+            <img src="images/logo.png" class="h-60px w54px">
+          <a class=" text-white btn btn-ghost normal-case text-xl">Fruit Burst</a>
+        </div>
+        <div class=" navbar-end">
+        <div class="relative flex items-center">
+            <img src="images/211817_search_strong_icon.png" class="w-5 h-5 absolute ml-80" alt="">
+            <input type="search" name="scarch" placeholder="seacher here"id="scarch" class="pr-40 py-3 font -semibold text-black rounded-full gap-5 w-96 px-5 ">
+        </div>
+     
+        </div>
+      </div>
+    
+<!--hero section-->
+<div>
+    <section style="position: relative; margin-bottom: 190px;">
+        <div class="mt-7 hero" style=" border-radius: 20px; height: 500px; background-image:url(images/banner1.png);">
+             <div class="hero-overlay rounded-2xl bg-opacity-60"></div>
+             <div class="  max-w-screen-xl hero-content text-center text-red-50 text-neutral-content">
+               <div class="max-w-md">
+                 <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                 <p class="mb-5">We supply highly quality organic products</p>
+                 <button class="btn border-none text-white bg-red-500">Shop Now</button>
+               </div>
+             </div>
+           </div>
+  
+     </section>
+     
+     
+     <section style="  position: absolute; bottom: 0px;   padding-left: 205px; ">
+     
+     <div style="width: 900px;">
+        <div class="flex text-center p-7 h-40 rounded-xl items-center justify-center gap-20 bg-white ">
+            <div><img src="images/fruit1.png" class="w-20" alt=""><p>Strawberry</p></div>
+            <div><img src="images/fruit2.png" class="w-20" alt=""><p>Orange</p></div>
+            <div><img src="images/fruit3.png" class="w-20" alt=""><p>Mango</p></div>
+            <div><img src="images/fruit4.png" class="w-20" alt=""><p>Strawberry</p></div>
+            <div><img src="images/fruit5.png" class="w-20" alt=""><p>Mango</p></div>
+        
+        </div>
+     </div>
+     
+     </section>
+</div>
+
+
+<!--Deal of the day section-->
+
+<section class="flex gap-96">
+    <div>
+        <h1 class="text-3xl font-bold">
+            Deal of the day
+        </h1>
+        <p class="mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+
+    <div class="flex gap-10">
+
+<div class="flex">
+    <div>
+        <h1 class="font-bold text-3xl">
+            29
+        </h1>
+            <p class="text-center text-xs pt-3">
+                Days
+            </p>
+          
+     </div> 
+     <div class="pt-2 ml-4">
+        <img src="images/Frame.png" class="h-4">
+     </div>
+</div>
+
+<div class="flex">
+    <div>
+        <h1 class="font-bold text-3xl">
+            15
+        </h1>
+            <p class="text-center text-xs pt-3">
+                Hours
+            </p>
+          
+     </div> 
+     <div class="pt-2 ml-4">
+        <img src="images/Frame.png" class="h-4">
+     </div>
+</div>
+
+<div class="flex">
+    <div>
+        <h1 class="font-bold text-3xl">
+            25
+        </h1>
+            <p class="text-center text-xs pt-3">
+                Minutes
+            </p>
+          
+     </div> 
+     <div class="pt-2 ml-4">
+        <img src="images/Frame.png" class="h-4">
+     </div>
+</div>
+
+
+<div class="flex">
+    <div>
+        <h1 class="font-bold text-3xl">
+            08
+        </h1>
+            <p class="text-center text-xs pt-3">
+                Seconds
+            </p>
+          
+     </div> 
+     <div class="pt-2 ml-4">
+        <img src="images/Frame.png" class="h-4">
+     </div>
+</div>
+
+
+    </div>
+</section>
+
+
+
+<!--card-section-->
+
+<section>
+<div class="flex items-center justify-center gap-3">
+    <!--card-1-->
+    <div class=" mt-10 card w-80 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit6.png">
+        </figure>
+        <div class="mt-2 card-body items-center text-center">
+          <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+          <p class="mt-2" >Apples</p>
+          <div class=" mt-2 card-actions">
+            <div><img src="images/Group 24.png" class="mt-1">
+
+<div>
+  
+<label for="my_modal_7" class="btn bg-white text-red-700 border-0">Details</label>
+
+<input type="checkbox" id="my_modal_7" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box" style="padding: 0px;">
+    <div class=" mt-10 card w-50 bg-base-100 shadow-xl" style="margin: 0px; margin: auto;">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit6.png">
+        </figure>
+        <div class="mt-2 card-body items-center text-center">
+          <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+          <p class="mt-2" >Apples</p>
+          <div class=" mt-2 card-actions">
+            <div><img src="images/Group 24.png" class="mt-1">
+              <button class="text-white bg-red-600 w-24 h-10 rounded-xl mt-4">Buy Now</button>
+          </div>
+        </div>
+    </div>
+      </div>
+  </div>
+  <label class="modal-backdrop" for="my_modal_7">Close</label>
+</div>
+</div>
+          </div>
+        </div>
+    </div>
+      </div>
+      <!--card-2-->
+      <div class=" mt-10 card w-80 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit7.png">
+        </figure>
+        <div class="mt-2 card-body items-center text-center">
+          <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+          <p class="mt-2" >Orange</p>
+          <div class=" mt-2 card-actions">
+            <div><img src="images/Group 24.png" class="mt-1">
+           
+ 
+
+              <label for="my_modal_8" class="btn bg-white text-red-700 border-0">Details</label>
+
+              <input type="checkbox" id="my_modal_8" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box" style="padding: 0px;">
+                  <div class=" mt-10 card w-50 bg-base-100 shadow-xl" style="margin: 0px; margin: auto;">
+                      <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.png">
+                      </figure>
+                      <div class="mt-2 card-body items-center text-center">
+                        <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+                        <p class="mt-2" >Orange</p>
+                        <div class=" mt-2 card-actions">
+                          <div><img src="images/Group 24.png" class="mt-1">
+                            <button class="text-white bg-red-600 w-24 h-10 rounded-xl mt-4">Buy Now</button>
+                        </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+                <label class="modal-backdrop" for="my_modal_8">Close</label>
+              </div>
+          </div>
+        </div>
+    </div>
+      </div>    
+      <!--card-3-->
+      <div class=" mt-10 card w-80 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit8.png">
+        </figure>
+        <div class="mt-2 card-body items-center text-center">
+          <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+          <p class="mt-2" >Red Dragon</p>
+          <div class=" mt-2 card-actions">
+            <div><img src="images/Group 24.png" class="mt-1">
+              <label for="my_modal_9" class="btn bg-white text-red-700 border-0">Details</label>
+
+              <input type="checkbox" id="my_modal_9" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box" style="padding: 0px;">
+                  <div class=" mt-10 card w-50 bg-base-100 shadow-xl" style="margin: 0px; margin: auto;">
+                      <figure class="px-10 pt-10">
+                        <img src="./images/fruit8.png">
+                      </figure>
+                      <div class="mt-2 card-body items-center text-center">
+                        <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+                        <p class="mt-2" >
+                          Red Dragon</p>
+                        <div class=" mt-2 card-actions">
+                          <div><img src="images/Group 24.png" class="mt-1">
+                            <button class="text-white bg-red-600 w-24 h-10 rounded-xl mt-4">Buy Now</button>
+                        </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+                <label class="modal-backdrop" for="my_modal_9">Close</label>
+              </div>
+          </div>
+        </div>
+    </div>
+      </div>    
+      <!--card-4-->
+      <div class=" mt-10 card w-80 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit9.png">
+        </figure>
+        <div class="mt-2 card-body items-center text-center">
+          <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+          <p class="mt-2" >Banana</p>
+          <div class=" mt-2 card-actions">
+            <div><img src="images/Group 24.png" class="mt-1">
+              <label for="my_modal_10" class="btn bg-white text-red-700 border-0">Details</label>
+
+              <input type="checkbox" id="my_modal_10" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box" style="padding: 0px;">
+                  <div class=" mt-10 card w-50 bg-base-100 shadow-xl" style="margin: 0px; margin: auto;">
+                      <figure class="px-10 pt-10">
+                        <img src="./images/fruit9.png">
+                      </figure>
+                      <div class="mt-2 card-body items-center text-center">
+                        <h2 class="mt-1 card-title">12.90$ - 18.85$</h2>
+                        <p class="mt-2" >Banana</p>
+                        <div class=" mt-2 card-actions">
+                          <div><img src="images/Group 24.png" class="mt-1">
+                          <button class="text-white bg-red-600 w-24 h-10 rounded-xl mt-4">Buy Now</button>
+                          
+                        </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+                <label class="modal-backdrop" for="my_modal_10">Close</label>
+              </div>
+          </div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <div class=" text-center mt-10">
+        <button class="btn border-none text-white bg-red-500">Shop All</button>
+       </div>
+</section>
+
+<!--Meet the team section-->
+
+<section>
+    <div class="mt-14 hero" style=" border-radius: 20px; height: 500px; background-image:url(images/banner1.png);">
+        <div class="hero-overlay rounded-2xl bg-opacity-75"></div>
+        <div class=" p-0 max-w-screen-xl hero-content text-center text-red-50 text-neutral-content">
+          <div class="max-w-screen-2xl">
+            <h1 class="mb-5 text-5xl font-bold">Meet the team section   </h1>
+            <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of 
+               <br> classical Latin literature from 45 BC, making it over 2000 years old.</p>
+           <div class="flex justify-center gap-28">
+            <div>
+                <img src="images/member1.png" class=" mt-3 h-20">
+                <h1 class="mt-2 font-bold" >Awlad Hossain</h1>
+                <p class="mt-2">Fruits Expert</p>
+            <div class="flex mt-2 gap-3">
+                <img src="images/facebook 1.png" class="rounded-full">
+                <img src="images/twitter (1) 1.png" class="rounded-full">
+                <img src="images/linkedin 1.png" class="rounded-full">
+            </div>
+            </div>
+            <div>
+                <img src="images/member2.png" class="mt-3 h-20">
+                <h1 class="mt-2 font-bold" >Awlad Hossain</h1>
+                <p class="mt-2">Fruits Expert</p>
+            <div class="flex mt-2 gap-3">
+                <img src="images/facebook 1.png" class="rounded-full">
+                <img src="images/twitter (1) 1.png" class="rounded-full">
+                <img src="images/linkedin 1.png" class="rounded-full">
+            </div>
+            </div>
+            <div>
+                <img src="images/member3.png" class="mt-3 h-20">
+                <h1 class="mt-2 font-bold" >Awlad Hossain</h1>
+                <p class="mt-2">Fruits Expert</p>
+            <div class="flex mt-2 gap-3">
+                <img src="images/facebook 1.png" class="rounded-full">
+                <img src="images/twitter (1) 1.png" class="rounded-full">
+                <img src="images/linkedin 1.png" class="rounded-full">
+            </div>
+            </div>
+            <div>
+                <img src="images/member4.png" class="mt-3 h-20">
+                <h1 class="mt-2 font-bold" >Awlad Hossain</h1>
+                <p class="mt-2">Fruits Expert</p>
+            <div class="flex mt-2 gap-3">
+                <img src="images/facebook 1.png" class="rounded-full">
+                <img src="images/twitter (1) 1.png" class="rounded-full">
+                <img src="images/linkedin 1.png" class="rounded-full">
+            </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!--Why Choose Us section-->
+
+<section>
+    <div class="text-center mt-12">
+        <h1 class="text-4xl font-bold">Why Choose Us</h1>
+        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin 
+           literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+</section>
+   <!--last-section-->
+
+  <section class="pt-16 mt-16 flex justify-center gap-10">
+<div>
+    <div class="flex pt-3">
+     <div class="pt-5">
+        <div class="h-10 w-10  bg-slate-400 rounded-full">
+            <img src="images/group 1.png" class="rounded-full pt-2 m-auto">
+         </div>
+     </div>
+     
+    <div class="ml-5">
+        <div class="font-bold mb-3 ">Dedicated Team</div>
+        <hr class="w-20 bg-gray-400 pt-1">
+        <div class="border-t-stone-300 mt-3">
+           Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+        </div>
+    
+    </div>
+    </div>
+    
+    <div class="flex pt-7">
+      <div class="pt-5">
+        <div class="h-10 w-10  bg-slate-400 rounded-full">
+            <img src="images/love 1.png" class="rounded-full pt-2 m-auto">
+         </div>
+      </div>
+     
+    <div class="ml-5">
+        <div class="font-bold mb-3 ">Fresh is Best</div>
+        <hr class="w-20 bg-gray-400 pt-1">
+        <div class="border-t-stone-300 mt-3">
+           Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+        </div>
+    
+    </div>
+    </div>
+    
+    <div class="flex pt-7">
+   <div class="pt-5">
+    <div class="h-10 w-10  bg-slate-400 rounded-full">
+        <img src="images/gift-box 1.png" class="rounded-full pt-2 m-auto">
+     </div>
+   </div>
+     
+    <div class="ml-5">
+        <div class="font-bold mb-3 ">Gift Certificates</div>
+        <hr class="w-20 bg-gray-400 pt-1">
+        <div class="border-t-stone-300 mt-3">
+           Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+        </div>
+    
+    </div>
+    </div>
+</div>
+     <div>
+         <img src="images/whychoose1.png" style="height: 379px; width: 380px;">
+     </div>
+     <div class="flex justify-end">
+        <div>
+            <div class="flex pt-3"style="text-align:right; gap: 10px; flex-direction: row-reverse;">
+         <div class="pt-5">
+            <div class="h-10 w-10  bg-slate-400 rounded-full">
+                <img src="images/fruit 1.png" class="rounded-full pt-2 m-auto">
+             </div>
+         </div>
+             
+            <div class="ml-5">
+                <div class="font-bold mb-3 ">Integrated Supplier</div>
+                <hr class="w-20 bg-gray-400 pt-1" style="margin-left: 177px;">
+                <div class="border-t-stone-300 mt-3">
+                   Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                </div>
+            
+            </div>
+            </div>
+            
+            <div class="flex pt-7" style="text-align:right; gap: 10px; flex-direction: row-reverse;">
+             <div class="pt-5">
+                <div class="h-10 w-10  bg-slate-400 rounded-full">
+                    <img src="images/ice-cream 1.png" class="rounded-full pt-2 m-auto">
+                 </div>
+             </div>
+             
+            <div class="ml-5">
+                <div class="font-bold mb-3 ">Sustainable Practice</div>
+                <hr class="w-20 bg-gray-400 pt-1" style="margin-left: 177px;">
+                <div class="border-t-stone-300 mt-3">
+                   Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                </div>
+            
+            </div>
+            </div>
+            
+            <div class="flex pt-7" style="text-align:right; gap: 10px; flex-direction: row-reverse;">
+          <div class="pt-5">
+            <div class="h-10 w-10  bg-slate-400 rounded-full">
+                <img src="images/like 1.png " class="rounded-full pt-2 m-auto">
+             </div>
+          </div>
+             
+            <div class="ml-5">
+                <div class="font-bold mb-3 ">The Benefits Only</div>
+                <hr class="w-20 bg-gray-400 pt-1" style="margin-left: 177px;">
+                <div class="border-t-stone-300 mt-3">
+                   Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                </div>
+            
+            </div>
+            </div>
+         </div>
+     
+     </div>
+  </section>
+
+</div>
+<!--Footer section-->
+<footer>
+
+    <div class="w-full h-80 bg-black">
+    
+  <div class="flex items-center justify-center pt-9">
+    <img src="images/logo.png" alt="">
+    <p class="text-white font-bold gap-3 text-4xl">Fruit Burst</p>
+  </div>
+   
+w <div class="text-white flex justify-center gap-20 pt-5">
+    <p>Home/p>
+    <p>About Us</p>
+    <p>Shop</p>
+    <p>Fruits</p>
+    <p>Support</p>
+    <p>My Account</p>
+</div>
+ <div class="flex h-7 bg-black justify-center rounded-full  mt-10 gap-12">
+    <img src="./images/twitter 1.png" alt="">
+    <img src="./images/facebook 1 footer.png" alt="">
+    <img src="./images/instagram 1.png" alt="">
+    <img src="./images/linkedin 1 (1) footer.png" alt="">
+    <img src="./images/Group 49 (1).png" alt="">
+    <img src="./images/apple 1.png" alt="">
+   
+ </div>
+
+    </div>
+
+</footer>
+</body>
+</html>
